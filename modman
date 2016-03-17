@@ -1,2 +1,4 @@
 /inc /inc
+/application/controllers/demo /application/controllers/demo
+/application/views/demo /application/views/demo
 
