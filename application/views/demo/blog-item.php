@@ -8,22 +8,22 @@
     <title>Blog Single | Corlate</title>
     
     <!-- core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>inc/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>inc/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>inc/css/prettyPhoto.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>inc/css/animate.min.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>inc/css/main.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>inc/css/responsive.css" rel="stylesheet">
     
     <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
+    <script src="<?php echo base_url() ?>inc/js/html5shiv.js"></script>
+    <script src="<?php echo base_url() ?>inc/js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="<?php echo base_url() ?>inc/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url() ?>inc/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url() ?>inc/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url() ?>inc/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url() ?>inc/images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 
 <body>
@@ -38,11 +38,11 @@
                     <div class="col-sm-6 col-xs-8">
                        <div class="social">
                             <ul class="social-share">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="<?php echo site_url() ?>/demo/demo/#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="<?php echo site_url() ?>/demo/demo/#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="<?php echo site_url() ?>/demo/demo/#"><i class="fa fa-linkedin"></i></a></li> 
+                                <li><a href="<?php echo site_url() ?>/demo/demo/#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="<?php echo site_url() ?>/demo/demo/#"><i class="fa fa-skype"></i></a></li>
                             </ul>
                             <div class="search">
                                 <form role="form">
@@ -65,26 +65,26 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index"><img src="<?php echo base_url() ?>inc/images/logo.png" alt="logo"></a>
                 </div>
                 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="<?php echo site_url() ?>/demo/demo/index">Home</a></li>
+                        <li><a href="<?php echo site_url() ?>/demo/demo/about_us">About Us</a></li>
+                        <li><a href="<?php echo site_url() ?>/demo/demo/services">Services</a></li>
+                        <li><a href="<?php echo site_url() ?>/demo/demo/portfolio">Portfolio</a></li>
                         <li class="dropdown active">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
+                            <a href="<?php echo site_url() ?>/demo/demo/#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li class="active"><a href="blog-item.html">Blog Single</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="404.html">404</a></li>
-                                <li><a href="shortcodes.html">Shortcodes</a></li>
+                                <li class="active"><a href="<?php echo site_url() ?>/demo/demo/blog_item">Blog Single</a></li>
+                                <li><a href="<?php echo site_url() ?>/demo/demo/pricing">Pricing</a></li>
+                                <li><a href="<?php echo site_url() ?>/demo/demo/error_404">error_404</a></li>
+                                <li><a href="<?php echo site_url() ?>/demo/demo/shortcodes">Shortcodes</a></li>
                             </ul>
                         </li>
-                        <li><a href="blog.html">Blog</a></li> 
-                        <li><a href="contact-us.html">Contact</a></li>                        
+                        <li><a href="<?php echo site_url() ?>/demo/demo/blog">Blog</a></li> 
+                        <li><a href="<?php echo site_url() ?>/demo/demo/contact_us">Contact</a></li>                        
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -102,15 +102,15 @@
         <div class="blog">
             <div class="row">
                 <div class="col-md-8">
-                    <div class="blog-item">
-                        <img class="img-responsive img-blog" src="images/blog/blog1.jpg" width="100%" alt="" />
+                    <div class="blog_item">
+                        <img class="img-responsive img-blog" src="<?php echo base_url() ?>inc/images/blog/blog1.jpg" width="100%" alt="" />
                             <div class="row">  
                                 <div class="col-xs-12 col-sm-2 text-center">
                                     <div class="entry-meta">
                                         <span id="publish_date">07  NOV</span>
-                                        <span><i class="fa fa-user"></i> <a href="#"> John Doe</a></span>
-                                        <span><i class="fa fa-comment"></i> <a href="blog-item.html#comments">2 Comments</a></span>
-                                        <span><i class="fa fa-heart"></i><a href="#">56 Likes</a></span>
+                                        <span><i class="fa fa-user"></i> <a href="<?php echo site_url() ?>/demo/demo/#"> John Doe</a></span>
+                                        <span><i class="fa fa-comment"></i> <a href="<?php echo site_url() ?>/demo/demo/blog_item.html#comments">2 Comments</a></span>
+                                        <span><i class="fa fa-heart"></i><a href="<?php echo site_url() ?>/demo/demo/#">56 Likes</a></span>
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-10 blog-content">
@@ -120,61 +120,61 @@
                                     <p>Curabitur quis libero leo, pharetra mattis eros. Praesent consequat libero eget dolor convallis vel rhoncus magna scelerisque. Donec nisl ante, elementum eget posuere a, consectetur a metus. Proin a adipiscing sapien. Suspendisse vehicula porta lectus vel semper.</p>
 
                                     <div class="post-tags">
-                                        <strong>Tag:</strong> <a href="#">Cool</a> / <a href="#">Creative</a> / <a href="#">Dubttstep</a>
+                                        <strong>Tag:</strong> <a href="<?php echo site_url() ?>/demo/demo/#">Cool</a> / <a href="<?php echo site_url() ?>/demo/demo/#">Creative</a> / <a href="<?php echo site_url() ?>/demo/demo/#">Dubttstep</a>
                                     </div>
 
                                 </div>
                             </div>
-                        </div><!--/.blog-item-->
+                        </div><!--/.blog_item-->
                         
                         <div class="media reply_section">
                             <div class="pull-left post_reply text-center">
-                                <a href="#"><img src="images/blog/boy.png" class="img-circle" alt="" /></a>
+                                <a href="<?php echo site_url() ?>/demo/demo/#"><img src="<?php echo base_url() ?>inc/images/blog/boy.png" class="img-circle" alt="" /></a>
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i> </a></li>
+                                    <li><a href="<?php echo site_url() ?>/demo/demo/#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="<?php echo site_url() ?>/demo/demo/#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="<?php echo site_url() ?>/demo/demo/#"><i class="fa fa-google-plus"></i> </a></li>
                                 </ul>
                             </div>
                             <div class="media-body post_reply_content">
                                 <h3>Antone L. Huges</h3>
                                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariaturp</p>
-                                <p><strong>Web:</strong> <a href="http://www.shapebootstrap.net">www.shapebootstrap.net</a></p>
+                                <p><strong>Web:</strong> <a href="<?php echo site_url() ?>/demo/demo/http://www.shapebootstrap.net">www.shapebootstrap.net</a></p>
                             </div>
                         </div> 
                         
                         <h1 id="comments_title">5 Comments</h1>
                         <div class="media comment_section">
                             <div class="pull-left post_comments">
-                                <a href="#"><img src="images/blog/girl.png" class="img-circle" alt="" /></a>
+                                <a href="<?php echo site_url() ?>/demo/demo/#"><img src="<?php echo base_url() ?>inc/images/blog/girl.png" class="img-circle" alt="" /></a>
                             </div>
                             <div class="media-body post_reply_comments">
                                 <h3>Marsh</h3>
                                 <h4>NOVEMBER 9, 2013 AT 9:15 PM</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                                <a href="#">Reply</a>
+                                <a href="<?php echo site_url() ?>/demo/demo/#">Reply</a>
                             </div>
                         </div> 
                         <div class="media comment_section">
                             <div class="pull-left post_comments">
-                                <a href="#"><img src="images/blog/boy2.png" class="img-circle" alt="" /></a>
+                                <a href="<?php echo site_url() ?>/demo/demo/#"><img src="<?php echo base_url() ?>inc/images/blog/boy2.png" class="img-circle" alt="" /></a>
                             </div>
                             <div class="media-body post_reply_comments">
                                 <h3>Marsh</h3>
                                 <h4>NOVEMBER 9, 2013 AT 9:15 PM</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                                <a href="#">Reply</a>
+                                <a href="<?php echo site_url() ?>/demo/demo/#">Reply</a>
                             </div>
                         </div> 
                         <div class="media comment_section">
                             <div class="pull-left post_comments">
-                                <a href="#"><img src="images/blog/boy3.png" class="img-circle" alt="" /></a>
+                                <a href="<?php echo site_url() ?>/demo/demo/#"><img src="<?php echo base_url() ?>inc/images/blog/boy3.png" class="img-circle" alt="" /></a>
                             </div>
                             <div class="media-body post_reply_comments">
                                 <h3>Marsh</h3>
                                 <h4>NOVEMBER 9, 2013 AT 9:15 PM</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                                <a href="#">Reply</a>
+                                <a href="<?php echo site_url() ?>/demo/demo/#">Reply</a>
                             </div>
                         </div> 
 
@@ -228,24 +228,24 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="single_comments">
-    								<img src="images/blog/avatar3.png" alt=""  />
+    								<img src="<?php echo base_url() ?>inc/images/blog/avatar3.png" alt=""  />
     								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
                                     <div class="entry-meta small muted">
-                                        <span>By <a href="#">Alex</a></span <span>On <a href="#">Creative</a></span>
+                                        <span>By <a href="<?php echo site_url() ?>/demo/demo/#">Alex</a></span <span>On <a href="<?php echo site_url() ?>/demo/demo/#">Creative</a></span>
                                     </div>
     							</div>
     							<div class="single_comments">
-    								<img src="images/blog/avatar3.png" alt=""  />
+    								<img src="<?php echo base_url() ?>inc/images/blog/avatar3.png" alt=""  />
     								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
     								<div class="entry-meta small muted">
-                                        <span>By <a href="#">Alex</a></span <span>On <a href="#">Creative</a></span>
+                                        <span>By <a href="<?php echo site_url() ?>/demo/demo/#">Alex</a></span <span>On <a href="<?php echo site_url() ?>/demo/demo/#">Creative</a></span>
                                     </div>
     							</div>
     							<div class="single_comments">
-    								<img src="images/blog/avatar3.png" alt=""  />
+    								<img src="<?php echo base_url() ?>inc/images/blog/avatar3.png" alt=""  />
     								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
     								<div class="entry-meta small muted">
-                                        <span>By <a href="#">Alex</a></span <span>On <a href="#">Creative</a></span>
+                                        <span>By <a href="<?php echo site_url() ?>/demo/demo/#">Alex</a></span <span>On <a href="<?php echo site_url() ?>/demo/demo/#">Creative</a></span>
                                     </div>
     							</div>
     							
@@ -259,10 +259,10 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <ul class="blog_category">
-                                    <li><a href="#">Computers <span class="badge">04</span></a></li>
-                                    <li><a href="#">Smartphone <span class="badge">10</span></a></li>
-                                    <li><a href="#">Gedgets <span class="badge">06</span></a></li>
-                                    <li><a href="#">Technology <span class="badge">25</span></a></li>
+                                    <li><a href="<?php echo site_url() ?>/demo/demo/#">Computers <span class="badge">04</span></a></li>
+                                    <li><a href="<?php echo site_url() ?>/demo/demo/#">Smartphone <span class="badge">10</span></a></li>
+                                    <li><a href="<?php echo site_url() ?>/demo/demo/#">Gedgets <span class="badge">06</span></a></li>
+                                    <li><a href="<?php echo site_url() ?>/demo/demo/#">Technology <span class="badge">25</span></a></li>
                                 </ul>
                             </div>
                         </div>                     
@@ -273,10 +273,10 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <ul class="blog_archieve">
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> December 2013 <span class="pull-right">(97)</span></a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> November 2013 <span class="pull-right">(32)</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> October 2013 <span class="pull-right">(19)</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> September 2013 <span class="pull-right">(08)</a></li>
+                                    <li><a href="<?php echo site_url() ?>/demo/demo/#"><i class="fa fa-angle-double-right"></i> December 2013 <span class="pull-right">(97)</span></a></li>
+                                    <li><a href="<?php echo site_url() ?>/demo/demo/#"><i class="fa fa-angle-double-right"></i> November 2013 <span class="pull-right">(32)</a></li>
+                                    <li><a href="<?php echo site_url() ?>/demo/demo/#"><i class="fa fa-angle-double-right"></i> October 2013 <span class="pull-right">(19)</a></li>
+                                    <li><a href="<?php echo site_url() ?>/demo/demo/#"><i class="fa fa-angle-double-right"></i> September 2013 <span class="pull-right">(08)</a></li>
                                 </ul>
                             </div>
                         </div>                     
@@ -301,12 +301,12 @@
     				<div class="widget blog_gallery">
                         <h3>Our Gallery</h3>
                         <ul class="sidebar-gallery">
-                            <li><a href="#"><img src="images/blog/gallery1.png" alt="" /></a></li>
-                            <li><a href="#"><img src="images/blog/gallery2.png" alt="" /></a></li>
-                            <li><a href="#"><img src="images/blog/gallery3.png" alt="" /></a></li>
-                            <li><a href="#"><img src="images/blog/gallery4.png" alt="" /></a></li>
-                            <li><a href="#"><img src="images/blog/gallery5.png" alt="" /></a></li>
-                            <li><a href="#"><img src="images/blog/gallery6.png" alt="" /></a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#"><img src="<?php echo base_url() ?>inc/images/blog/gallery1.png" alt="" /></a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#"><img src="<?php echo base_url() ?>inc/images/blog/gallery2.png" alt="" /></a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#"><img src="<?php echo base_url() ?>inc/images/blog/gallery3.png" alt="" /></a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#"><img src="<?php echo base_url() ?>inc/images/blog/gallery4.png" alt="" /></a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#"><img src="<?php echo base_url() ?>inc/images/blog/gallery5.png" alt="" /></a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#"><img src="<?php echo base_url() ?>inc/images/blog/gallery6.png" alt="" /></a></li>
                         </ul>
                     </div><!--/.blog_gallery-->
     					
@@ -327,13 +327,13 @@
                     <div class="widget">
                         <h3>Company</h3>
                         <ul>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">We are hiring</a></li>
-                            <li><a href="#">Meet the team</a></li>
-                            <li><a href="#">Copyright</a></li>
-                            <li><a href="#">Terms of use</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Contact us</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">About us</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">We are hiring</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Meet the team</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Copyright</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Terms of use</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Privacy policy</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Contact us</a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
@@ -342,13 +342,13 @@
                     <div class="widget">
                         <h3>Support</h3>
                         <ul>
-                            <li><a href="#">Faq</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Forum</a></li>
-                            <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Refund policy</a></li>
-                            <li><a href="#">Ticket system</a></li>
-                            <li><a href="#">Billing system</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Faq</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Blog</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Forum</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Documentation</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Refund policy</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Ticket system</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Billing system</a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
@@ -357,13 +357,13 @@
                     <div class="widget">
                         <h3>Developers</h3>
                         <ul>
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">SEO Marketing</a></li>
-                            <li><a href="#">Theme</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Email Marketing</a></li>
-                            <li><a href="#">Plugin Development</a></li>
-                            <li><a href="#">Article Writing</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Web Development</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">SEO Marketing</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Theme</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Development</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Email Marketing</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Plugin Development</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Article Writing</a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
@@ -372,13 +372,13 @@
                     <div class="widget">
                         <h3>Our Partners</h3>
                         <ul>
-                            <li><a href="#">Adipisicing Elit</a></li>
-                            <li><a href="#">Eiusmod</a></li>
-                            <li><a href="#">Tempor</a></li>
-                            <li><a href="#">Veniam</a></li>
-                            <li><a href="#">Exercitation</a></li>
-                            <li><a href="#">Ullamco</a></li>
-                            <li><a href="#">Laboris</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Adipisicing Elit</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Eiusmod</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Tempor</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Veniam</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Exercitation</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Ullamco</a></li>
+                            <li><a href="<?php echo site_url() ?>/demo/demo/#">Laboris</a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
@@ -394,21 +394,21 @@
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="<?php echo site_url() ?>/demo/demo/#">Home</a></li>
+                        <li><a href="<?php echo site_url() ?>/demo/demo/#">About Us</a></li>
+                        <li><a href="<?php echo site_url() ?>/demo/demo/#">Faq</a></li>
+                        <li><a href="<?php echo site_url() ?>/demo/demo/#">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer><!--/#footer-->
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="<?php echo base_url() ?>inc/js/jquery.js"></script>
+    <script src="<?php echo base_url() ?>inc/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url() ?>inc/js/jquery.prettyPhoto.js"></script>
+    <script src="<?php echo base_url() ?>inc/js/jquery.isotope.min.js"></script>
+    <script src="<?php echo base_url() ?>inc/js/main.js"></script>
+    <script src="<?php echo base_url() ?>inc/js/wow.min.js"></script>
 </body>
 </html>
